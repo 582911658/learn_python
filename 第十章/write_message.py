@@ -1,4 +1,5 @@
-file_name = 'programming.txt'
+filename = 'programing.txt'
 
-with open(file_name, 'a+') as file_object:
-    file_object.write('...111\n')
+with open(filename,'a') as file_project:
+    file_project.write("I love Python.\n")
+    file_project.write("I love C.\n")
